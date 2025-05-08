@@ -61,16 +61,19 @@ const EachProduct = ({ params }: { params: { id: number } }) => {
             />
           )}
         </div>
+
         <div className="space-y-6">
-          <h1 className="text-4xl font-bold text-[#3e4c59]">{product?.title}</h1>
-          <p className="text-2xl text-[#171f46] font-semibold">₹{product?.price}</p>
+          <h1 className="text-4xl font-bold text-gray-800">{product?.title}</h1>
+          <p className="text-2xl text-gray-900 font-semibold">₹{product?.price}</p>
+
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-1 bg-[#3b82f6] px-3 py-1 text-white rounded-md">
+            <div className="flex items-center gap-1 bg-[#f9dc05] px-3 py-1 text-black font-medium rounded-md">
               <p>{product?.rating.rate}</p>
-              <Star className="size-4" />
+              <Star className="size-4 fill-black" />
             </div>
             <p className="text-gray-600">{product?.rating.count} Reviews</p>
           </div>
+
           <p className="text-gray-700 text-lg">{product?.description}</p>
           <p>
             <span className="font-semibold">Available:</span>{' '}
@@ -80,19 +83,27 @@ const EachProduct = ({ params }: { params: { id: number } }) => {
             <span className="font-semibold">Brand:</span>{' '}
             <span className="text-gray-600">Mufti</span>
           </p>
+
           <div className="flex items-center gap-4">
             <button
-              className="p-2 px-3 bg-slate-100 rounded"
+              className="p-2 px-3 bg-gray-200 hover:bg-gray-300 rounded transition"
               onClick={() => setCount((c) => Math.max(1, c - 1))}
             >
               −
             </button>
             <span className="text-lg text-gray-700">{count}</span>
-            <button className="p-2 px-3 bg-slate-100 rounded" onClick={() => setCount(count + 1)}>
+            <button
+              className="p-2 px-3 bg-gray-200 hover:bg-gray-300 rounded transition"
+              onClick={() => setCount(count + 1)}
+            >
               +
             </button>
           </div>
-          <Button onClick={gotocart} className="bg-[#3b82f6] px-6 text-white hover:bg-blue-600">
+
+          <Button
+            onClick={gotocart}
+            className="bg-[#f9dc05] hover:bg-yellow-400 text-black font-semibold px-6 py-2 rounded shadow-md transition"
+          >
             Add to Cart
           </Button>
         </div>
