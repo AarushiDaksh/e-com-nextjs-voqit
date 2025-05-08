@@ -3,20 +3,15 @@
 A responsive and modern e-commerce web application built with **Next.js 14**, **TailwindCSS**, and **Clerk authentication**. This project demonstrates product listing, single product pages, cart functionality, and protected routes.
 
 ---
-
 ## 📸 Screenshots
-![WhatsApp Image 2025-05-08 at 08 16 07_b5556344](https://github.com/user-attachments/assets/e8ffd36b-337d-416b-b420-e259808e2e47)
-![WhatsApp Image 2025-05-08 at 08 16 07_1e7be111](https://github.com/user-attachments/assets/aa73f925-df6d-4314-8e95-f88725bee3c5)
 
----
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e8ffd36b-337d-416b-b420-e259808e2e47" alt="Screenshot 1" width="600"/>
+</p>
 
-## ✨ Features
-
-- 🛒 Product listing with images, price, and ratings
-- 🔐 Clerk authentication with Sign In / Sign Up
-- 🧺 Cart context with quantity controls
-- 💡 Responsive design for desktop & mobile
-- 🚀 Modern UI with TailwindCSS and React
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f920fa1-0238-4e8d-9df6-95419ac19741" alt="Screenshot 2" width="600"/>
+</p>
 
 ---
 
