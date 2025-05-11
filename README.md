@@ -15,7 +15,7 @@ A responsive and modern e-commerce web application built with **Next.js 14**, **
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Next.js 14 (App Router)**
 - **TypeScript**
