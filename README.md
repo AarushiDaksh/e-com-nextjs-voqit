@@ -1,6 +1,6 @@
 # 🛍️ e-com-nextjs-voqit
 
-A responsive and modern e-commerce web application built with **Next.js 14**, **TailwindCSS**, and **Clerk authentication**. This project demonstrates product listing, single product pages, cart functionality, and protected routes.
+A responsive and modern e-commerce web application built with **Next.js 14**, **TailwindCSS**, and **Clerk authentication**. This project demonstrates product listing, single product pages, cart functionality, and protected routes
 
 ---
 ## 📸 Screenshots
